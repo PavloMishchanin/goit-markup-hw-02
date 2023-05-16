@@ -1,5 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif; 
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 .list {
@@ -12,30 +14,30 @@ body {
 }
 
 .link:hover {
-color: #9747FF;
+    color: #404bbf;
 }
 
 .link:focus {
- color: #9747FF;   
+    color: #404bbf;   
 }
 
 .logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: #4d5ae5;
 }
 
-.logo-web {
+.logo-studio {
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
     line-height: 1.16;
     text-transform: uppercase;
-    color: #4D5AE5
+    color: #2e2f42;
 }
 
 .header-item {
@@ -52,6 +54,10 @@ color: #9747FF;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+}
+
+.header-address {
+    font-style: normal;
 }
 
 .address-link {
@@ -77,6 +83,7 @@ color: #9747FF;
 }
 
 .hero-btn {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -84,6 +91,10 @@ color: #9747FF;
     color: #FFFFFF;
     background-color: #4D5AE5;
     cursor: pointer;
+}
+
+.hero-btn:hover, .hero-btn:focus {
+    background-color: #404BBF;
 }
 
 .filters-btn {
@@ -150,6 +161,10 @@ color: #9747FF;
 
 /*-------------------Our Team----------------*/
 
+.section-team {
+    background-color: #F4F4FD;
+}
+
 .section-team-title {
     font-weight: 700;
     font-size: 36px;
@@ -158,6 +173,10 @@ color: #9747FF;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
+}
+
+.section-team-item {
+    background-color: #FFFFFF;
 }
 
 .section-team-bottum-title {
@@ -183,9 +202,30 @@ color: #9747FF;
     background: #2E2F42;
 }
 
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.footer-studio {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
+
 .footer-text {
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
