@@ -4,6 +4,15 @@ body {
   background-color: #ffffff;
 }
 
+:root {
+  --title-top-color: #2e2f42;
+  --text-top-color: #434455;
+  --logo-color: #4d5ae5;
+  --btn-top-color: #4d5ae5;
+  --logo-studio-color: #2e2f42;
+  --address-link-color: #434455;
+}
+
 .list {
   list-style: none;
 }
@@ -28,7 +37,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--logo-color);
 }
 
 .logo-studio {
@@ -37,7 +46,7 @@ body {
   font-size: 18px;
   line-height: 1.16;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--logo-studio-color);
 }
 
 .header-item {
@@ -65,7 +74,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--address-link-color);
 }
 /*---------hero------*/
 
@@ -98,17 +107,6 @@ body {
   background-color: #404bbf;
 }
 
-.filters-btn {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background-color: #f4f4fd;
-  cursor: pointer;
-}
-
 /*----------------Our features-------------*/
 
 .features-title {
@@ -116,7 +114,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-top-color);
 }
 
 .features-text {
@@ -124,24 +122,46 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-top-color);
 }
 
 /*------------------Project card--------------*/
+
+.filters-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--btn-top-color);
+  background-color: #f4f4fd;
+  cursor: pointer;
+}
+
+.filters-btn:hover {
+  color: #FFFFFF;
+  background-color: #404BBF;
+}
+
+.filters-btn:focus {
+  color: #FFFFFF;
+  background-color: #404BBF;
+}
 
 .section-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-top-color);
 }
 
 .section-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-top-color);
 }
 
 /*-----------------------What are we doing-------------*/
@@ -153,7 +173,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--title-top-color);
 }
 
 /*-------------------Our Team----------------*/
@@ -169,7 +189,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--title-top-color);
 }
 
 .section-team-item {
@@ -182,7 +202,7 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-top-color);
 }
 
 .section-team-text {
@@ -190,7 +210,7 @@ body {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-top-color);
 }
 
 /*---------------footer------------*/
@@ -207,7 +227,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--logo-color);
 }
 
 .footer-studio {
