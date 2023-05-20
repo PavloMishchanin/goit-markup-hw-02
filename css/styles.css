@@ -85,7 +85,6 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
@@ -131,7 +130,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;
   letter-spacing: 0.04em;
   color: var(--btn-top-color);
   background-color: #f4f4fd;
@@ -169,7 +167,6 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--title-top-color);
@@ -185,7 +182,6 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--title-top-color);
@@ -199,7 +195,6 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  text-align: center;
   letter-spacing: 0.02em;
   color: var(--title-top-color);
 }
@@ -207,7 +202,6 @@ body {
 .section-team-text {
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;
   letter-spacing: 0.02em;
   color: var(--text-top-color);
 }
@@ -222,7 +216,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-color);
