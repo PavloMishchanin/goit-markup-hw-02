@@ -41,7 +41,7 @@ body {
 }
 
 .logo-studio {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
@@ -82,7 +82,6 @@ body {
 }
 
 .hero-title {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -117,7 +116,6 @@ body {
 }
 
 .features-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -165,7 +163,6 @@ body {
 /*-----------------------What are we doing-------------*/
 
 .section-work-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -181,7 +178,6 @@ body {
 }
 
 .section-team-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
